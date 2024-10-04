@@ -1,10 +1,10 @@
-section{
+section {
     max-width: 1200px;
-    margin: 0px auto;
-    background-color: blanchedalmond;
-
+    margin: 0 auto;
+    background-color: white;
 }
 
-section a{
-    border: 120px;
+main{
+    text-align: center;
+    
 }
