@@ -1,52 +1,51 @@
 main {
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
     padding: 20px;
+    display: flex;
     flex-wrap: wrap;
 }
 
-section { 
+section {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     padding: 40px;
 }
 
-section h1{
+section h1 {
     text-align: center;
     font-size: 30px;
     padding-bottom: 30px;
-    color:  rgb(0, 0, 0);
+    color: gray;
     font-weight: lighter;
-    
 }
 
 form {
-    color: rgb(0, 0, 0);
+    color: #333;
     display: flex;
     flex-direction: column;
 }
 
-label{
+label {
     display: block;
     margin-bottom: 5px;
 }
 
-input, textarea{
-        display: block;
-        padding: 10px;
-        width: 100%;
-        margin-bottom: 20px;
-        border: 1px solid #ccc;
-        color: blue;
+input, textarea {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    color: blue;
 }
 
-textarea{
+textarea {
     height: 100px;
 }
 
-button{
+button {
     background-color: #4caf50;
     color: white;
     padding: 10px 20px;
@@ -56,7 +55,7 @@ button{
     font-weight: bold;
 }
 
-section p{
+section p {
     color: gray;
     margin: 10px 0;
 }
@@ -66,14 +65,45 @@ section p{
     margin-top: 50px;
 }
 
-section h2{
+section h2 {
     font-size: 23px;
     color: gray;
     font-weight: lighter;
-    
     margin: 60px 0 20px 0;
 }
 
-#redes a{
+#redes a {
     margin-right: 30px;
+}
+
+#redes img {
+    /* width: 80px; */
+}
+
+.mapa {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+}
+
+.mapa iframe {
+    border: none;
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+}
+
+#Youtube img{
+    height: 10%;
+}
+
+#Facebook img{
+    height: 10%;
+}
+
+#Instagram img{
+    height: 10%;
 }
